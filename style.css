@@ -475,40 +475,8 @@ span {
 }
 
 
-/* =======================CONTACT SYLE===================== */
-.contact h2{
-    margin-bottom: 3rem;
-}
-
-.input-box input[type="text"],
-.input-box input[type="email"],
-.input-box input[type="number"],
-.input-box input[type="text"],
-
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.btn {
-    background-color: var(--bg-color);
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-.btn:hover {
-    background-color: var(--bg-color);
-}
-
-
-/*.contact form {
+/* =======================CONTACT SYLE================*/
+.contact form {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
@@ -544,7 +512,7 @@ textarea {
 .contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
-}*/
+}
 
 /*---- Footer style-------*/
 .footer {
