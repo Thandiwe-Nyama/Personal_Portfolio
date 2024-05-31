@@ -14,7 +14,7 @@
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
-    --main-color: #5b09c5f5;
+    --main-color: #754ef9;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
@@ -615,6 +615,7 @@ form button:hover {
     }
 }
 
+
 @media (max-width: 1024px) {
     .header {
         padding: 2rem 3%;
@@ -625,7 +626,7 @@ form button:hover {
     .home .profession-container .profession-box {
         right: -22rem;
     }
-    .home .profession-container .overlay {
+    .hpme .profession-container .overlay {
         right: -15rem;
     }
 }
@@ -663,7 +664,6 @@ form button:hover {
         padding: 2rem 3%;
     }
 }
-
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
@@ -797,13 +797,11 @@ form button:hover {
         display: none;
     }
 }
-
 @media (max-width: 617px) {
     .portfolio .portfolio-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1f;
     }
 }
-
 @media (max-width: 450px) {
     html {
         font-size: 50%;
@@ -830,7 +828,6 @@ form button:hover {
         width: 100%;
     }
 }
-
 @media (max-width: 365px) {
     .about-img img {
         width: 90vw;
