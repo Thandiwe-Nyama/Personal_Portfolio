@@ -615,7 +615,6 @@ form button:hover {
     }
 }
 
-
 @media (max-width: 1024px) {
     .header {
         padding: 2rem 3%;
@@ -626,7 +625,7 @@ form button:hover {
     .home .profession-container .profession-box {
         right: -22rem;
     }
-    .hpme .profession-container .overlay {
+    .home .profession-container .overlay {
         right: -15rem;
     }
 }
@@ -664,6 +663,7 @@ form button:hover {
         padding: 2rem 3%;
     }
 }
+
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
@@ -797,11 +797,13 @@ form button:hover {
         display: none;
     }
 }
+
 @media (max-width: 617px) {
     .portfolio .portfolio-container {
-        grid-template-columns: 1f;
+        grid-template-columns: 1fr;
     }
 }
+
 @media (max-width: 450px) {
     html {
         font-size: 50%;
@@ -828,6 +830,7 @@ form button:hover {
         width: 100%;
     }
 }
+
 @media (max-width: 365px) {
     .about-img img {
         width: 90vw;
