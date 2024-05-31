@@ -484,35 +484,86 @@ span {
     margin-bottom: 3rem;
 }
 
-.contact form .input box {
+.contact h2 {
+  font-size: 40px;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 10px;  
+}
+
+.contact form {
+    width: 600px;
+    text-align: center;
+}
+
+form .input-box {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.contact form .input-box input,
-.contact form textarea {
+.input-box .input-field {
+    width: 48.5%;
+}
+
+.field .item {
     width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid var(--shadow-color);
+    border-radius: 6px;
+    font-size: 16px;
     color: var(--text-color);
-    background: var(--bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    margin: 12px 0;
 }
 
-.contact form .input-box input {
-    width: 49%;
+.field.error .item {
+    border-color: #754ef9;
+
 }
 
-.contact form textarea {
+.field .item::placeholder {
+    color: #333;
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.field.error .error-txt {
+    display: block;
+}
+
+
+form .textarea-field .item {
     resize: none;
 }
 
-.contact form .btn{
-    margin-top: 2rem;
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+form button {
+    padding: 12px 32px;
+    background: var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px var(--shadow-color);
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
     cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+form button:hover {
+    box-shadow: none;
 }
 
 /*---- Footer style-------*/

@@ -43,7 +43,7 @@
                  you've come to the right place.</p>
             <div class="social-media">
                 <a href="https://github.com/Thandiwe-Nyama"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/nyama-thandiwe-a24168255/"><i class='bx bxl-linkedin'></i></a>
             </div>
             <a href="Thandiwe.Nyama CV.pdf" class="btn">Download CV</a>
         </div>
@@ -208,18 +208,41 @@
     <!-- =============CONTACT SECTION======================= -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name"
+                    class="item" autocomplete="off">
+                    <div class="error-txt">Full Name cannot be blank</div>
+                </div>
+            <div class="input-field field">
+                <input type="text" placeholder="Email Address" id="email"
+                class="item" autocomplete="off">
+                <div class="error-txt email">Email Address cannot be blank</div>
+                </div>
+            </div>
 
-        <form action="/submit_form" method="POST" onsubmit="handleSubmit()">
             <div class="input-box">
-                <input type="text" id="text" placeholder="Full Name" required>
-                <input type="email" id="email" placeholder="Email Address" required>
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone Number" id="phone"
+                    class="item" autocomplete="off">
+                    <div class="error-txt">Phone Number cannot be blank</div>
+                </div>
+            <div class="input-field field">
+                <input type="text" placeholder="Subject" id="subject"
+                class="item" autocomplete="off">
+                <div class="error-txt">Subject cannot be blank</div>
+                </div>
             </div>
-            <div class="input-box">
-                <input type="number" id="number" placeholder="Mobile Number" pattern="[0-9]+" title="Number must contain only nubers" required>
-                <input type="text" id="subject" placeholder="Email Subject" required><br><br>
+
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10"
+                placeholder="Your Message" class="item"
+                autocomplete="off"></textarea>
+                <div class="error-txt">Message cannot be blank</div>
             </div>
-            <textarea name="" id="" cols="30" rows="10" col="50" placeholder="Your Message" required></textarea><br><br>
-            <input type="submit" value="Send Message" class="btn">
+
+            <button type="submit">Send Message</button>
         </form>
 
     </section>
@@ -240,9 +263,9 @@
     <!--swiper js-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-
-
-    <!--==========Importing JavaScript===========-->
+         <!--==========Importing JavaScript===========-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
 
 
