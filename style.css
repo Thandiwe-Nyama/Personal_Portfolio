@@ -297,6 +297,71 @@ span {
     margin: 2rem 0 3rem;
 }
 
+/*=========SKILLS STYLE========*/
+
+.My-Skills {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .My-Skills h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .each-skills {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .candidatos {
+    padding-top: 20px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .percentage-num {
+    font-size: 16px;
+  }
+  
+  .progressbar {
+    background-color: #ccc;
+    height: 10px;
+  }
+  
+  .percentagem {
+    background-color: var(--main-color);
+    height: 10px;
+  }
+  
+  .my-progress-circle {
+    background-color: #ccc;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  
+  .my-progress-circle[data-progress="95"] {
+    background-color: var(--main-color);
+  }
+  
+  .pr-skill-name {
+    font-size: 16px;
+  }
+
+
+
+
 /*======Services Style========= */
 
 .services {
