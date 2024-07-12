@@ -309,13 +309,6 @@ span {
     padding-top: 20px;
 }
 
-.header {
-    text-align: center;
-    color: black;
-    padding: 1rem;
-    position: relative;
-}
-
 .header h2 {
     margin: 0; 
     font-size: 4.5em;
